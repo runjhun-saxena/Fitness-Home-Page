@@ -1,0 +1,104 @@
+/* CSS reset  */
+body{
+    
+        margin: 0px;
+        padding: 0px;
+     background: url(abs-1850926_1920.jpg);
+     
+    
+}
+.left{
+    display: inline-block;
+    border: 2px solid rgb(19, 19, 19);
+    position: absolute;
+    left: 30px;
+    top: 12px;
+}
+.left img{
+    width: 50px;
+    filter: invert();
+}
+#navbar{
+    display: block;
+    width: 50%;
+    margin: 12px auto;
+    ;
+
+}
+.right{
+     display: inline-block;
+     position: absolute;
+     right: 30px;
+     top: 12px;
+    
+}
+.btn{
+    margin: 5px;
+    background-color: rgba(0, 0, 0, 0.505);
+    color: white;
+    padding: 6px;
+    border: 1px solid rgba(255, 228, 196, 0.381);
+    border-radius: 3px;
+}
+    
+
+.btn:hover{
+    background-color: rgba(255, 228, 196, 0.39);
+    color: black;
+
+}
+   
+
+/* NAVBAR */
+#navbar ul {
+    
+    display: flex;
+}
+#navbar ul li{
+    list-style: none;
+    font-size: .5 rem;
+}
+#navbar ul li a{
+    display: block;
+    padding: 10px 20px;
+    border-radius: 20px;
+    border-color: black;
+    text-decoration: none;
+    font-weight: bold;
+    color:rgb(255, 255, 255);
+}
+#navbar ul li a:hover {
+    color: black;
+    background-color: rgba(248, 248, 255, 0.096);
+}
+
+/* container */
+.container{
+    border: 2px solid yellow;
+    width: 27%;
+    margin: 94px 35px;
+    padding: 35px 70px;
+    border-radius: 20px;
+    border-color: rgba(255, 228, 196, 0.361);
+    background-color: rgba(0, 0, 0, 0.352);
+    
+}
+    .container h1{
+        color: white;
+        text-align: center;
+    }
+    .container button{
+        display: block;
+        width: 45%;
+        margin: 10px auto
+    }
+    /* form */
+    .form-group input{
+        text-align: center;
+        display: block;
+        width: 350px;
+        margin: 2px auto;
+        border-color: bisque;
+        border-radius: 2px;
+    }
+    
